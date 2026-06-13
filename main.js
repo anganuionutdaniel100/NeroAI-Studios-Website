@@ -176,3 +176,11 @@ async function renderForumByState(container) {
     default: await renderForumView(container);
   }
 }
+// Wait for i18n catalog to be ready (especially on GitHub Pages)
+try {
+  if (window.miniappI18n?._readyPromise) {
+    await window.miniappI18n._readyPromise;
+  }
+} catch (i18nErr) {
+  console.warn('[NeroAI] i18n init warning:', i18nErr);
+}
