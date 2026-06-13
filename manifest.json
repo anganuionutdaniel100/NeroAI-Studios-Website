@@ -1,0 +1,22 @@
+{
+  "name": "NeroAI Studios",
+  "short_name": "NeroAI",
+  "description": "Portalul oficial NeroAI Studios — Discord hub live, forum comunitate, instrumente AI, radio 24/7 și multe altele.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#a855f7",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23a855f7'/><text x='50' y='65' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>N</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "entertainment", "utilities"],
+  "lang": "ro",
+  "dir": "ltr"
+}
