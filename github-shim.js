@@ -185,3 +185,7 @@
 
   console.log('[NeroAI] GitHub Pages shim active. Storage → localStorage, TTS → browser, AI → disabled.');
 })();
+window.miniappI18n._readyPromise = _readyPromise;
+})();
+
+
